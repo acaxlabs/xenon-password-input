@@ -1,0 +1,19 @@
+{
+  "name": "xenon-password-input",
+  "version": "1.0.0",
+  "authors": [
+    "ACA[X]Labs"
+  ],
+  "description": "1 upper case character, 1 lower case character, 1 numerical character, 1 special character, It also enforces a min and max length.",
+  "main": "xenon-password-input.html",
+  "license": "MIT",
+  "homepage": "https://github.com/acaxlabs/xenon-password-input.git",
+  "private": true,
+  "ignore": [],
+  "dependencies": {
+    "paper-input": "PolymerElements/paper-input#^1.x.x",
+    "iron-input": "PolymerElements/iron-input#^1.x.x",
+    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^1.x.x",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^1.x.x"
+  }
+}

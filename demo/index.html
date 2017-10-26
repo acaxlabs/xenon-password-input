@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../../webcomponentsjs/webcomponents.min.js"></script>
+    <link rel="import" href="../xenon-password-input.html" />
+    <link rel="import" href="../../iron-form/iron-form.html" />
+</head>
+<body>
+    <p>THE Complex Password Filter Matching 3 of 4 Character catagories: 1.) at least 1 upper case character 2.) at least 1 lower case character 3.) at least 1 numerical character 4.) at least 1 special character It also enforces a min and max length and works for .Net and script Regex implimentations.</p>
+    <form is="iron-form" id="form">
+        <xenon-password-input label="Password"></xenon-password-input>
+        <button style="margin-top:8px;" onclick='document.getElementById("form").validate();'>test</button>
+    </form>
+</body>
+</html>
